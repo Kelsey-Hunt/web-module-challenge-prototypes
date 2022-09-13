@@ -104,10 +104,10 @@ console.log(newBaby);
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object Binding = when you don't provide a particular context to 'this', so it is grabbing a value from the window/global context
+  2. Implicit Binding = uses dot syntax to tell 'this' to search within the current object for context
+  3. Explicit Binding = 'this' is not provided context within the object itself, but uses a method (like .call or .bind) to connect 'this' with the correct object
+  4. New Binding = 'this' applies to each new object as it is created through a constructor function
 */
 
 ///////// END OF CHALLENGE /////////
